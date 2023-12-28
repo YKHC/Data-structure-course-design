@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Function</class>
+ <widget class="QWidget" name="Function">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>770</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>770</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>540</y>
+     <width>221</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>460</y>
+     <width>221</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: qlineargradient(spread:pad, x1:0.52, 	y1:1, x2:0.54, y2:0, 
+	stop:0.0112994 rgba(64, 145, 252, 255), 
+	stop:1 rgba(255, 255, 255, 255));
+	color: rgb(255, 255, 255);
+ 
+	border:0px groove gray;border-radius:
+}
+QPushButton:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0.52, 	y1:1, x2:0.54, y2:0, 
+	stop:0.0112994 rgba(255, 255, 255, 255), 
+	stop:1 rgba(64, 145, 252, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string>获取当前支持的货币</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>380</y>
+     <width>481</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>0</y>
+     <width>481</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>81</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>35</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>输
+入</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>380</y>
+     <width>81</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>41</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>输
+
+出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>0</y>
+     <width>221</width>
+     <height>94</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Candara</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(255, 0, 0, 255), 
+    stop:1 rgba(255, 165, 0, 255));
+    color: rgb(255, 255, 255);
+    border:0px groove gray;
+    border-radius: 7px;
+    padding:2px 4px;
+    font: 14pt &quot;Candara&quot;;
+}
+QPushButton:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(255, 165, 0, 255), 
+    stop:1 rgba(255, 0, 0, 255));
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>检验一种货币</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>0</y>
+     <width>221</width>
+     <height>94</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Candara</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(255, 0, 0, 255), 
+    stop:1 rgba(255, 165, 0, 255));
+    color: rgb(255, 255, 255);
+    border:0px groove gray;
+    border-radius: 7px;
+    padding:2px 4px;
+    font: 14pt &quot;Candara&quot;;
+}
+QPushButton:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(255, 165, 0, 255), 
+    stop:1 rgba(255, 0, 0, 255));
+}
+</string>
+   </property>
+   <property name="text">
+    <string>所有路径</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>90</y>
+     <width>221</width>
+     <height>94</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Candara</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(255, 165, 0, 255), 
+    stop:1 rgba(255, 255, 0, 255));
+    color: rgb(255, 255, 255);
+    border:0px groove gray;
+    border-radius: 7px;
+    padding:2px 4px;
+    font: 14pt &quot;Candara&quot;;
+}
+QPushButton:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(255, 255, 0, 255), 
+    stop:1 rgba(255, 165, 0, 255));
+}
+</string>
+   </property>
+   <property name="text">
+    <string>所有可套汇货币</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>90</y>
+     <width>221</width>
+     <height>94</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Candara</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(255, 165, 0, 255), 
+    stop:1 rgba(255, 255, 0, 255));
+    color: rgb(255, 255, 255);
+    border:0px groove gray;
+    border-radius: 7px;
+    padding:2px 4px;
+    font: 14pt &quot;Candara&quot;;
+}
+QPushButton:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(255, 255, 0, 255), 
+    stop:1 rgba(255, 165, 0, 255));
+}
+</string>
+   </property>
+   <property name="text">
+    <string>兑换最佳路径</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>270</y>
+     <width>221</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Candara</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(0, 128, 0, 255), 
+    stop:1 rgba(0, 0, 255, 255));
+    color: rgb(255, 255, 255);
+    border:0px groove gray;
+    border-radius: 7px;
+    padding:2px 4px;
+    font: 14pt &quot;Candara&quot;;
+}
+QPushButton:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(0, 0, 255, 255), 
+    stop:1 rgba(0, 128, 0, 255));
+}
+</string>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>180</y>
+     <width>221</width>
+     <height>94</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Candara</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(255, 255, 0, 255), 
+    stop:1 rgba(0, 128, 0, 255));
+    color: rgb(255, 255, 255);
+    border:0px groove gray;
+    border-radius: 7px;
+    padding:2px 4px;
+    font: 14pt &quot;Candara&quot;;
+}
+QPushButton:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(0, 128, 0, 255), 
+    stop:1 rgba(255, 255, 0, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string>目标利润最高效率</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_12">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>180</y>
+     <width>221</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Candara</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(255, 255, 0, 255), 
+    stop:1 rgba(0, 128, 0, 255));
+    color: rgb(255, 255, 255);
+    border:0px groove gray;
+    border-radius: 7px;
+    padding:2px 4px;
+    font: 14pt &quot;Candara&quot;;
+}
+QPushButton:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(0, 128, 0, 255), 
+    stop:1 rgba(255, 255, 0, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string>判断能否套汇</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_13">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>350</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: qlineargradient(spread:pad, x1:0.52, 	y1:1, x2:0.54, y2:0, 
+	stop:0.0112994 rgba(64, 145, 252, 255), 
+	stop:1 rgba(255, 255, 255, 255));
+	color: rgb(255, 255, 255);
+ 
+	border:0px groove gray;border-radius:
+}
+QPushButton:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0.52, 	y1:1, x2:0.54, y2:0, 
+	stop:0.0112994 rgba(255, 255, 255, 255), 
+	stop:1 rgba(64, 145, 252, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string>获取使用说明</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_3">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>390</y>
+     <width>221</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_14">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>270</y>
+     <width>221</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Candara</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(0, 128, 0, 255), 
+    stop:1 rgba(0, 0, 255, 255));
+    color: rgb(255, 255, 255);
+    border:0px groove gray;
+    border-radius: 7px;
+    padding:2px 4px;
+    font: 14pt &quot;Candara&quot;;
+}
+QPushButton:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(0, 0, 255, 255), 
+    stop:1 rgba(0, 128, 0, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string>存入</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>350</y>
+     <width>221</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(0, 0, 255, 255), 
+    stop:1 rgba(238, 130, 238, 255));
+    color: rgb(255, 255, 255);
+    border:0px groove gray;
+    border-radius: 7px;
+    padding:2px 4px;
+    font: 14pt &quot;Candara&quot;;
+}
+QPushButton:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(238, 130, 238, 255), 
+    stop:1 rgba(0, 0, 255, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string>当前的数据</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

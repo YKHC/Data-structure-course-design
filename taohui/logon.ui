@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Logon</class>
+ <widget class="QWidget" name="Logon">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>660</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Agency FB</family>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(254, 254, 254);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>0</y>
+     <width>661</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>550</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton
+{
+	background-color: qlineargradient(spread:pad, x1:0.52, 	y1:1, x2:0.54, y2:0, 
+	stop:0.0112994 rgba(64, 145, 252, 255), 
+	stop:1 rgba(255, 255, 255, 255));
+	color: rgb(255, 255, 255);
+ 
+	border:0px groove gray;border-radius:
+	7px;padding:2px 4px;
+	font: 14pt &quot;Candara&quot;;
+}
+QPushButton:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0.52, 	y1:1, x2:0.54, y2:0, 
+	stop:0.0112994 rgba(255, 255, 255, 255), 
+	stop:1 rgba(64, 145, 252, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string>登录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>550</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton
+{
+	background-color: qlineargradient(spread:pad, x1:0.52, 	y1:1, x2:0.54, y2:0, 
+	stop:0.0112994 rgba(64, 145, 252, 255), 
+	stop:1 rgba(255, 255, 255, 255));
+	color: rgb(255, 255, 255);
+ 
+	border:0px groove gray;border-radius:
+	7px;padding:2px 4px;
+	font: 14pt &quot;Candara&quot;;
+}
+QPushButton:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0.52, 	y1:1, x2:0.54, y2:0, 
+	stop:0.0112994 rgba(255, 255, 255, 255), 
+	stop:1 rgba(64, 145, 252, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>550</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton
+{
+	background-color: qlineargradient(spread:pad, x1:0.52, 	y1:1, x2:0.54, y2:0, 
+	stop:0.0112994 rgba(64, 145, 252, 255), 
+	stop:1 rgba(255, 255, 255, 255));
+	color: rgb(255, 255, 255);
+ 
+	border:0px groove gray;border-radius:
+	7px;padding:2px 4px;
+	font: 14pt &quot;Candara&quot;;
+}
+QPushButton:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0.52, 	y1:1, x2:0.54, y2:0, 
+	stop:0.0112994 rgba(255, 255, 255, 255), 
+	stop:1 rgba(64, 145, 252, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string>注册</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>220</y>
+     <width>421</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(247, 247, 247);
+border:1px groove gray;border-radius:
+7px;padding:2px 4px;
+font: 10pt &quot;Candara&quot;;</string>
+   </property>
+   <property name="placeholderText">
+    <string>请输入账号</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>360</y>
+     <width>421</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(247, 247, 247);
+border:1px groove gray;border-radius:
+7px;padding:2px 4px;
+font: 10pt &quot;Candara&quot;;</string>
+   </property>
+   <property name="placeholderText">
+    <string>请输入密码</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>331</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>欢迎来到套汇工具</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>450</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>450</y>
+     <width>311</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(247, 247, 247);
+border:1px groove gray;border-radius:
+7px;padding:2px 4px;
+font: 10pt &quot;Candara&quot;;</string>
+   </property>
+   <property name="placeholderText">
+    <string>请输入验证码</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>insert2</class>
+ <widget class="QWidget" name="insert2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>770</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover{
+	
+	background-color: qradialgradient(spread:reflect, cx:0.24214, cy:0.864, radius:2, fx:0, fy:1, stop:0.0438596 rgba(242, 165, 194, 255), stop:0.311404 rgba(182, 146, 167, 255), stop:0.574561 rgba(113, 155, 166, 241), stop:0.872807 rgba(150, 106, 161, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>620</y>
+     <width>301</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover{
+	
+	background-color: qradialgradient(spread:reflect, cx:0.24214, cy:0.864, radius:2, fx:0, fy:1, stop:0.0438596 rgba(242, 165, 194, 255), stop:0.311404 rgba(182, 146, 167, 255), stop:0.574561 rgba(113, 155, 166, 241), stop:0.872807 rgba(150, 106, 161, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string>下一步</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>100</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover{
+	
+	background-color: qradialgradient(spread:reflect, cx:0.24214, cy:0.864, radius:2, fx:0, fy:1, stop:0.0438596 rgba(242, 165, 194, 255), stop:0.311404 rgba(182, 146, 167, 255), stop:0.574561 rgba(113, 155, 166, 241), stop:0.872807 rgba(150, 106, 161, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string>获取数据</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>270</y>
+     <width>541</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
