@@ -33,8 +33,6 @@ signals:
 public slots:
     void updateGraphReference(Graph* newGraph, Graph*graph);
 
-private slots:
-    void on_pushButton_8_clicked();
 };
 
 #endif // FUNCTION_H
